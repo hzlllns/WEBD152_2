@@ -1,0 +1,190 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+body {
+	background: #000;
+	font: 17px/24px "Duru Sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+a { text-decoration: none; }
+
+/* ---- TYPE ---- */
+
+h1 {
+	font: 18px/26px "Krona One", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;	
+	text-align: center;
+	color: #fff;
+	text-transform: lowercase;
+}
+
+h2 {
+	font: 36px "Krona One", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;	
+	text-transform: uppercase;
+	text-align: center;	
+	margin-bottom: 40px;
+	color: #5dcdb5;	
+}
+
+	section#menu h2 { color: #f95971; }
+
+h3 {
+	font: 23px/30px "Krona One", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;	
+	color: #fafafa;
+	text-transform: uppercase;	
+}
+
+.container {
+	width: 1080px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* ---- HEADER ---- */	
+
+header { 
+	background: #d4475c url(../images/header_bg.jpg) no-repeat;
+	height: 720px;
+	width: 100%;
+}	
+
+#header_left {
+	width: 580px;
+	float: left;
+}
+
+	#header_left img {
+		margin-top: 47px;
+	}
+
+#header_right {
+	padding-top: 243px;
+	width: 500px;
+	float: left;
+}
+
+/* ---- HEADER : NAV ---- */
+
+nav { 
+	height: 140px;
+	background: rgba(2, 2, 2, .3);
+}
+
+#logo {
+	background: url('../images/logo.png') no-repeat;
+	margin-top: 25px;
+	float: left;
+	width: 252px;
+	height: 92px;
+}
+
+ul#navigation {
+	font-family: "Krona One", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;	
+	margin-top: 65px;
+	float: right;
+}
+
+	ul#navigation li {
+		margin-left: 60px;
+		display: inline-block;
+	}
+
+		ul#navigation li a {
+			color: #fff;
+		}
+
+		ul#navigation li a:hover {
+			color: #d57786;
+		}
+
+/* ---- ABOUT ---- */
+
+section#about {
+	background-color: #fafafa; 
+	float:left;
+	width: 100%;
+	min-height: 755px;
+	padding: 100px 0 80px 0;
+}
+
+blockquote {
+	font: 24px/30px "Krona One", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	margin: 40px 0 0 0;	
+	color: #252525;
+	text-transform: none;
+}
+
+	blockquote cite { 
+		font-size: 18px; 
+		font-style: normal;
+		white-space: pre;
+	}
+
+#left_about {
+	float: left;
+	width: 685px;
+}
+
+	#left_about p {
+		width: 655px;
+	}
+
+	#left_about blockquote p { width: 100%; }
+
+#right_about {
+	width: 395px;
+	float: right;
+}
+
+/* ---- MENU ---- */
+
+section#menu {
+	background: #6cd1bb url('../images/menu_bg.jpg');
+	float: left;
+	height: 470px;
+	width: 100%;
+	padding: 80px 0 0 0;
+}
+	
+ul.menu_list {
+	display: inline-block;
+	text-align: center;
+	width: 355px;
+	vertical-align: top;
+	margin: 0;
+	padding: 0;
+}
+
+	ul.menu_list li {
+		margin: 0 0 12px 0;
+		padding: 0;
+	}
+
+/* ---- FOOTER ---- */	
+
+footer {
+	width: 100%;
+	background: #252525;
+	float:left;
+	height: 280px;
+	color: #fff;
+	padding-top: 50px;
+}
+
+	#footer_left {
+		float: left;
+	}
+
+		#footer_left ul li.number { 
+			margin-top: 30px; 
+		}
+
+	#footer_right {
+		float: right;
+	}
+
+
+
+
